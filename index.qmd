@@ -1,0 +1,190 @@
+---
+title: "Financial Development and Growth"
+author: "Tedy Herlambang"
+subtitle: An Inquiry into the Foundations of Human Prosperity
+footer: ub.ac.id
+logo: images/logo-ub-bottom.png
+bibliography: egr.bib
+editor: source
+execute:
+  eval: true
+  echo: true
+  warning: true
+  error: true   
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    code-copy: hover
+    code-overflow: scroll
+    multiplex: false
+    embed-resources: false
+    controls: auto
+    progress: true
+    history: true
+    hash-type: number    
+    slide-number: c/t
+    show-slide-number: print  
+    menu:
+      side: right
+      width: normal
+      numbers: true
+    chalkboard:
+      theme: chalkboard
+      # src: drawings.json
+      read-only: false
+title-slide-attributes:
+  # data-background-image: images/logo-ub1.png
+  data-background-opacity: "0.5"
+  data-background-size: 15%
+  data-background-position: 2% 2%
+  # data-background-image: grid-worms/bird.webp
+  # background-iframe: grid-worms/index.html
+preload-iframes: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+# General R options
+set.seed(111)               # in case we use randomized procedures       
+options(scipen = 999)       # positive values bias towards fixed and negative towards scientific notation
+options(repos = 
+  c(getOption("repos")["CRAN"],
+  CRANextra = "https://mirror.clientvps.com/CRAN/")
+) # use CRAN as default, set CRANextra to Nürnberg mirror
+
+# Load packages
+if (!require("pacman")) install.packages("pacman", dependencies = TRUE)
+packages <- c(
+  "papaja",
+  "here", "fs",
+  "conflicted",
+  "rio",
+  "tidyverse", 
+  "psych",          
+  "rstatix", "ggstatsplot",
+  "ggplot2", "ggpubr", "scales",
+  "report",
+  # , ...
+  "plotly", "crosstalk", "DT",
+  # for examples:
+  "htmltools",
+  "palmerpenguins",
+  "d3scatter"
+)
+pacman::p_load(char = packages)
+
+# Set here to Rnotebook directory
+here::set_here()
+unloadNamespace("here")                   # need new R session or unload namespace for .here file to take precedence over .Rproj
+notebook_name <- fs::path_file(here::here())
+
+# Solve conflicts in favor of tidyverse
+conflicted::conflict_prefer("filter", winner = "dplyr")
+conflicted::conflict_prefer("select", winner = "dplyr")
+conflicted::conflict_prefer("slice", winner = "dplyr")
+conflicted::conflict_prefer("rename", winner = "dplyr")
+conflicted::conflict_prefer("count", winner = "dplyr")
+
+# Themes for ggplot2 plotting (here used APA style)
+theme_set(papaja::theme_apa())
+```
+
+## One Century Thought
+
+- In 1912 Joseph Schumpeter argued that the services provided by financial intermediaries-mobilizing savings, evaluating projects, managing risk, monitoring managers, and facilitating transactions-are essential for technological innovation and economic development (@schumpeterTheoryEconomicDevelopment1983).
+
+## Close Ties Goldsmith and McKinnon 
+
+- Empirical work by Goldsmith and McKinnon illustrates the close ties between financial and economic development for a few countries (@goldsmithFinancialStructureDevelopment1969; @mckinnonMoneyCapitalEconomic1970).
+
+## Financial Development and Economic Growth Ross Levine
+
+- Firm-level studies, industry-level studies, individual country-studies, and 
+broad cross country comparisons, demonstrate a strong positive link between 
+the functioning of the financial system and long-run economic growth (@levineFinancialDevelopmentEconomic1997).
+
+## Levine on Schumpeter
+
+- Indicators of the level of financial development are strongly and robustly correlated with 
+growth, the rate of physical capital accumulation, and improvements in the efficiency of capital allocation.
+- Financial services stimulate economic growth by increasing the rate of capital accumulation 
+and by improving the efficiency with which economies use that capital (@kingFinanceGrowthSchumpeter1993)
+
+## Contra
+
+- @robinsonGeneralisationGeneralTheory1979 contends that financial development simply follows economic growth..."where enterprise leads finance follows"
+- @lucasMechanicsEconomicDevelopment1988 terms the relationship between financial and economic development "over-stressed." 
+
+## Financial development {.scrollable .smaller}
+
+- Improvements in functions provided by the financial systems such as: (i) pooling of savings; (ii) allocating capital to productive investments; (iii) monitoring those investments; (iv) risk diversification; and (v) exchange of goods and services (@levineChapter12Finance2005). 
+- Each of these financial functions can influence saving and investment decisions and the efficiency with which funds are allocated. As a result, finance affects the accumulation of physical and human capital and total factor productivity – the three factors that determine economic growth. 
+- Indices that summarize how developed financial institutions and financial markets are in terms of their depth, access, and efficiency (IMF).
+
+## The Links {.scrollable .smaller}
+
+- Undoubtedly, the financial system is shaped by nonfinancial developments. Changes in telecommunications, computers, nonfinancial sector policies, institutions, and economic growth itself influence the quality of financial services and the structure of the financial system. 
+- Technological improvements lower transaction costs and affect financial arrangements (@mertonFinancialInnovationEconomic1992). 
+- Monetary and fiscal policies affect the taxation of financial intermediaries and the provision of financial services (@bencivengaFinancialIntermediationEndogenous1991; @roubiniFinancialRepressionEconomic1992). 
+- Legal systems affect financial systems (@laportaLawFinance1996), and political changes and national institutions critically influence financial development (@haberIndustrialConcentrationCapital1991). 
+- Furthermore, economic growth alters the willingness of savers and investors to pay the costs associated with participating in the financial system (@greenwoodFinancialDevelopmentGrowth1990). 
+- While economists have made important advances, we need much more research on financial development. 
+- Why does financial structure change as countries grow? Why do countries at similar stages of economic development have different looking financial systems? Are there long-run economic 
+growth advantages to adopting legal and policy changes that create one type of financial structure vis-a-vis another? Much more information about the determinants and implications of financial 
+structure will move us closer to a comprehensive view of financial development and economic growth. 
+
+## So...How are the links?
+
+- The links between financial development and economic growth are open to a number of questions
+
+## Institution
+
+
+
+
+
+
+
+## Two Tracks: Theory-Driven vs Data-Driven {.scrollable .smaller}
+
+- Humans cannot not hypothesize
+- Data are neither theory nor can they speak for themselves. 
+- Interpretation always requires the data to be framed within specific purpose(s) and contextualized in particular domain(s) for researchers to give meaningful insights.
+
+1. Specific theoretical models drive a particular empirical analysis: the theoretical models identify specific features and mechanisms of economies and trace their implications for growth over time.
+
+2. The empirical work is more loosely connected to any specific model and driven more by data and statistical forces: empirical exercises designed to extract regularities in growth based on the observed differences in outcomes (insights are “born from the data").
+
+## I plan to use both tracks
+
+- Cases: across-countries (ASEAN or may be extended to ASIA countries)
+- Tools:
+  + Econometrics: parametric, nonparametric 
+  + Explainable Artificial Intelligence (XAI) --> white box Machine Learning
+- Data: global panel data 
+
+## Data {.scrollable}
+
+- [World Bank](https://www.worldbank.org/en/home)
+- [IMF](https://www.imf.org/en/Home)
+- [UNCTAD](https://unctad.org/)
+- [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/?lang=en)
+- [PISA](https://www.oecd.org/pisa/)
+- [WIPO statistic](https://www.wipo.int/ipstats/en/)
+- [World Values Survey](https://www.worldvaluessurvey.org/wvs.jsp)
+- [World Inequality Report](https://www.worldvaluessurvey.org/wvs.jsp)
+- [UQICD](https://uqicd.economics.uq.edu.au/)
+- [Global Entrepreneurship and Development Institute](http://thegedi.org/global-entrepreneurship-and-development-index/)
+- R and Python
+
+## References
+
+
+
+```{=html}
+<!-- 
+# {background-iframe="grid-worms/index.html"} 
+Background for title slide, not working in this version of Quarto -->
+```
