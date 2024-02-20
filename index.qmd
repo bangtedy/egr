@@ -91,81 +91,62 @@ conflicted::conflict_prefer("count", winner = "dplyr")
 theme_set(papaja::theme_apa())
 ```
 
-## One Century Thought
+## One century thought
 
-- In 1912 Joseph Schumpeter argued that the services provided by financial intermediaries-mobilizing savings, evaluating projects, managing risk, monitoring managers, and facilitating transactions-are essential for technological innovation and economic development (@schumpeterTheoryEconomicDevelopment1983).
+- In 1912 (@schumpeterTheoryEconomicDevelopment1983) argued that the services provided by financial intermediaries are essential for technological innovation and economic development.
 
-## Close Ties Goldsmith and McKinnon 
+## Close ties
 
-- Empirical work by Goldsmith and McKinnon illustrates the close ties between financial and economic development for a few countries (@goldsmithFinancialStructureDevelopment1969; @mckinnonMoneyCapitalEconomic1970).
+- Early empirical work by (@goldsmithFinancialStructureDevelopment1969; @mckinnonMoneyCapitalEconomic1970) illustrates the close ties between financial and economic development for a few countries.
 
-## Financial Development and Economic Growth Ross Levine
+## Strong and robust
 
-- Firm-level studies, industry-level studies, individual country-studies, and 
-broad cross country comparisons, demonstrate a strong positive link between 
-the functioning of the financial system and long-run economic growth (@levineFinancialDevelopmentEconomic1997).
+- @kingFinanceGrowthSchumpeter1993: indicators of the level of financial development are strongly and robustly correlated with growth, the rate of physical capital accumulation, and improvements in the efficiency of capital allocation.
 
-## Levine on Schumpeter
+## Multilevel studies
 
-- Indicators of the level of financial development are strongly and robustly correlated with 
-growth, the rate of physical capital accumulation, and improvements in the efficiency of capital allocation.
-- Financial services stimulate economic growth by increasing the rate of capital accumulation 
-and by improving the efficiency with which economies use that capital (@kingFinanceGrowthSchumpeter1993)
+- @levineFinancialDevelopmentEconomic1997: Firm-level studies, industry-level studies, individual country-studies, and broad cross country comparisons: a strong positive link between 
+the functioning of the financial system and long-run economic growth.
 
 ## Contra
 
-- @robinsonGeneralisationGeneralTheory1979 contends that financial development simply follows economic growth..."where enterprise leads finance follows"
-- @lucasMechanicsEconomicDevelopment1988 terms the relationship between financial and economic development "over-stressed." 
+- @robinsonGeneralisationGeneralTheory1979: financial development simply follows economic growth..."where enterprise leads finance follows"
+- @lucasMechanicsEconomicDevelopment1988: the relationship between financial and economic development "over-stressed." 
 
-## Financial development {.scrollable .smaller}
+## A number of possibilities {.scrollable}
 
-- Improvements in functions provided by the financial systems such as: (i) pooling of savings; (ii) allocating capital to productive investments; (iii) monitoring those investments; (iv) risk diversification; and (v) exchange of goods and services (@levineChapter12Finance2005). 
-- Each of these financial functions can influence saving and investment decisions and the efficiency with which funds are allocated. As a result, finance affects the accumulation of physical and human capital and total factor productivity – the three factors that determine economic growth. 
-- Indices that summarize how developed financial institutions and financial markets are in terms of their depth, access, and efficiency (IMF).
+- The links between financial development and economic growth *vice versa* are open to a number of possibilities.
+- No doubt, economic growth and financial system is shaped by financial and nonfinancial factors: technology(@mertonFinancialInnovationEconomic1992), legal systems (@laportaLawFinance1996), monetary and fiscal policies (@bencivengaFinancialIntermediationEndogenous1991; @roubiniFinancialRepressionEconomic1992), political changes and national institutions (@haberIndustrialConcentrationCapital1991), human capital.
+- Economic growth alters the willingness of savers and investors to pay the costs associated with participating in the financial system (@greenwoodFinancialDevelopmentGrowth1990).
 
-## The Links {.scrollable .smaller}
+## Therefore {.scrollable}
 
-- Undoubtedly, the financial system is shaped by nonfinancial developments. Changes in telecommunications, computers, nonfinancial sector policies, institutions, and economic growth itself influence the quality of financial services and the structure of the financial system. 
-- Technological improvements lower transaction costs and affect financial arrangements (@mertonFinancialInnovationEconomic1992). 
-- Monetary and fiscal policies affect the taxation of financial intermediaries and the provision of financial services (@bencivengaFinancialIntermediationEndogenous1991; @roubiniFinancialRepressionEconomic1992). 
-- Legal systems affect financial systems (@laportaLawFinance1996), and political changes and national institutions critically influence financial development (@haberIndustrialConcentrationCapital1991). 
-- Furthermore, economic growth alters the willingness of savers and investors to pay the costs associated with participating in the financial system (@greenwoodFinancialDevelopmentGrowth1990). 
-- While economists have made important advances, we need much more research on financial development. 
-- Why does financial structure change as countries grow? Why do countries at similar stages of economic development have different looking financial systems? Are there long-run economic 
-growth advantages to adopting legal and policy changes that create one type of financial structure vis-a-vis another? Much more information about the determinants and implications of financial 
-structure will move us closer to a comprehensive view of financial development and economic growth. 
+- We need much more research on financial development! 
+- Why does financial structure change as countries grow? 
+- Why do countries at similar stages of economic development have different looking financial systems? 
+- Are there long-run economic growth advantages to adopting legal and policy changes that create one type of financial structure vis-a-vis another? 
+- Much more information about the determinants and implications of financial structure will move us closer to a comprehensive view of financial development and economic growth. 
 
-## So...How are the links?
+## Institutions
 
-- The links between financial development and economic growth are open to a number of questions
+- Incentive (@easterlyElusiveQuestGrowth2002)
+- Property right (@fernandezmartinInstitutionsFinancialDevelopment2015; @cheangInstitutionsEconomicDevelopment2023)
+- Power relations (@fernandezmartinInstitutionsFinancialDevelopment2015; @ozanneWhyPowerMatters2016; @bartlettEconomicsPowerInquiry1989)
 
-## Institution
-
-
-
-
-
-
-
-## Two Tracks: Theory-Driven vs Data-Driven {.scrollable .smaller}
-
-- Humans cannot not hypothesize
-- Data are neither theory nor can they speak for themselves. 
-- Interpretation always requires the data to be framed within specific purpose(s) and contextualized in particular domain(s) for researchers to give meaningful insights.
+## Two Tracks: Theory-Driven vs Data-Driven {.scrollable}
 
 1. Specific theoretical models drive a particular empirical analysis: the theoretical models identify specific features and mechanisms of economies and trace their implications for growth over time.
 
-2. The empirical work is more loosely connected to any specific model and driven more by data and statistical forces: empirical exercises designed to extract regularities in growth based on the observed differences in outcomes (insights are “born from the data").
+2. The empirical work is more loosely connected to any specific model and driven more by data and statistical forces: insights are “born from the data".
 
-## I plan to use both tracks
+## PLAN
 
-- Cases: across-countries (ASEAN or may be extended to ASIA countries)
+- Global panel data (ASEAN or ASIA countries)
 - Tools:
-  + Econometrics: parametric, nonparametric 
-  + Explainable Artificial Intelligence (XAI) --> white box Machine Learning
-- Data: global panel data 
+  + Econometrics: parametric, nonparametric (track 1)
+  + Explainable Artificial Intelligence (XAI) --> white box Machine Learning (track 2)
 
-## Data {.scrollable}
+## Data {.scrollable .smaller}
 
 - [World Bank](https://www.worldbank.org/en/home)
 - [IMF](https://www.imf.org/en/Home)
