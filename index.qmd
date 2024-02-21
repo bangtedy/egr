@@ -91,13 +91,13 @@ conflicted::conflict_prefer("count", winner = "dplyr")
 theme_set(papaja::theme_apa())
 ```
 
-## One century thought
+## One century old idea
 
-- In 1912 (@schumpeterTheoryEconomicDevelopment1983) argued that the services provided by financial intermediaries are essential for technological innovation and economic development.
+- In 1911 (@schumpeterTheoryEconomicDevelopment1983) argued that the services provided by financial intermediaries are essential for technological innovation and economic development.
 
-## Close ties
+## Early empirical work
 
-- Early empirical work by (@goldsmithFinancialStructureDevelopment1969; @mckinnonMoneyCapitalEconomic1970) illustrates the close ties between financial and economic development for a few countries.
+- @goldsmithFinancialStructureDevelopment1969 and mckinnonMoneyCapitalEconomic1970: close ties between financial and economic development for a few countries.
 
 ## Strong and robust
 
@@ -113,25 +113,35 @@ the functioning of the financial system and long-run economic growth.
 - @robinsonGeneralisationGeneralTheory1979: financial development simply follows economic growth..."where enterprise leads finance follows"
 - @lucasMechanicsEconomicDevelopment1988: the relationship between financial and economic development "over-stressed." 
 
-## A number of possibilities {.scrollable}
+## A number of factors {.scrollable}
 
-- The links between financial development and economic growth *vice versa* are open to a number of possibilities.
-- No doubt, economic growth and financial system is shaped by financial and nonfinancial factors: technology(@mertonFinancialInnovationEconomic1992), legal systems (@laportaLawFinance1996), monetary and fiscal policies (@bencivengaFinancialIntermediationEndogenous1991; @roubiniFinancialRepressionEconomic1992), political changes and national institutions (@haberIndustrialConcentrationCapital1991), human capital.
-- Economic growth alters the willingness of savers and investors to pay the costs associated with participating in the financial system (@greenwoodFinancialDevelopmentGrowth1990).
-
-## Therefore {.scrollable}
-
-- We need much more research on financial development! 
-- Why does financial structure change as countries grow? 
-- Why do countries at similar stages of economic development have different looking financial systems? 
-- Are there long-run economic growth advantages to adopting legal and policy changes that create one type of financial structure vis-a-vis another? 
-- Much more information about the determinants and implications of financial structure will move us closer to a comprehensive view of financial development and economic growth. 
+- No doubt, economic growth and financial system is shaped by financial and nonfinancial factors:
+  + technology(@mertonFinancialInnovationEconomic1992), 
+  + legal systems (@laportaLawFinance1996), 
+  + monetary and fiscal policies (@bencivengaFinancialIntermediationEndogenous1991;@roubiniFinancialRepressionEconomic1992),
+  + political changes and national **institutions** (@haberIndustrialConcentrationCapital1991), 
+  + human capital(@puskarovaImpactKnowledgeSpillovers2016;@checchiEconomicsEducationHuman2008),
+  + social capital (@puskarovaTrustBustGrowth2022)
 
 ## Institutions
 
-- Incentive (@easterlyElusiveQuestGrowth2002)
-- Property right (@fernandezmartinInstitutionsFinancialDevelopment2015; @cheangInstitutionsEconomicDevelopment2023)
-- Power relations (@fernandezmartinInstitutionsFinancialDevelopment2015; @ozanneWhyPowerMatters2016; @bartlettEconomicsPowerInquiry1989)
+- Since the seminal works of @williamsonEconomicInstitutionsCapitalism1985, @northInstitutionsInstitutionalChange1990 and @acemogluChapterInstitutionsFundamental2005, institutions have been identified as the fundamental cause of long run economic growth.
+  + Incentive (@easterlyElusiveQuestGrowth2002)
+  + Property right (@fernandezmartinInstitutionsFinancialDevelopment2015; @cheangInstitutionsEconomicDevelopment2023)
+  + Power relations (@fernandezmartinInstitutionsFinancialDevelopment2015; @ozanneWhyPowerMatters2016; @bartlettEconomicsPowerInquiry1989)
+  + Rule of law, political stability (@effiongFinancialDevelopmentInstitutions2015)
+
+## Institutions and FinDev
+
+- Findev: measured by the the severity of financial market frictions --> high information and transaction costs
+- Institutions are the fundamental roots of these costs
+
+## A number of possibilities
+
+- The links between financial development and economic growth *vice versa* are open to a number of possibilities.
+- We need much more research on financial development! 
+- Much more information about the determinants and implications of financial development will move us closer to a comprehensive view of the links between financial development and economic growth. 
+
 
 ## Two Tracks: Theory-Driven vs Data-Driven {.scrollable}
 
